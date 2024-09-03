@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BC2BB282C877B62004F399E /* EventSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2BB272C877B62004F399E /* EventSymbols.swift */; };
+		1BC2BB2A2C877C8D004F399E /* EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2BB292C877C8D004F399E /* EventList.swift */; };
+		1BC2BB2D2C877CD5004F399E /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2BB2C2C877CD5004F399E /* EventData.swift */; };
+		1BC2BB2F2C877D08004F399E /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2BB2E2C877D08004F399E /* Event.swift */; };
+		1BC2BB312C877D56004F399E /* EventTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2BB302C877D56004F399E /* EventTask.swift */; };
+		1BC2BB342C877F8D004F399E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2BB332C877F8D004F399E /* Colors.swift */; };
+		1BC2BB362C877FE8004F399E /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2BB352C877FE8004F399E /* Date.swift */; };
+		1BC2BB3A2C8786C3004F399E /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2BB392C8786C3004F399E /* EventRow.swift */; };
+		1BC2BB3C2C87871D004F399E /* CustomLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2BB3B2C87871D004F399E /* CustomLabelStyle.swift */; };
+		1BC2BB3E2C878A86004F399E /* Period.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2BB3D2C878A86004F399E /* Period.swift */; };
+		1BC2BB412C878B64004F399E /* SymbolPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2BB402C878B64004F399E /* SymbolPicker.swift */; };
+		1BC2BB432C878B8F004F399E /* EventEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2BB422C878B8F004F399E /* EventEditor.swift */; };
+		1BC2BB452C878CB6004F399E /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2BB442C878CB6004F399E /* TaskRow.swift */; };
 		1BC9FFB62C8776CD000370E9 /* PlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC9FFB52C8776CD000370E9 /* PlannerApp.swift */; };
-		1BC9FFB82C8776CD000370E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC9FFB72C8776CD000370E9 /* ContentView.swift */; };
 		1BC9FFBA2C8776CE000370E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BC9FFB92C8776CE000370E9 /* Assets.xcassets */; };
 		1BC9FFBD2C8776CE000370E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BC9FFBC2C8776CE000370E9 /* Preview Assets.xcassets */; };
 		1BC9FFC72C8776CE000370E9 /* PlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC9FFC62C8776CE000370E9 /* PlannerTests.swift */; };
 		1BC9FFD12C8776CE000370E9 /* PlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC9FFD02C8776CE000370E9 /* PlannerUITests.swift */; };
 		1BC9FFD32C8776CE000370E9 /* PlannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC9FFD22C8776CE000370E9 /* PlannerUITestsLaunchTests.swift */; };
+		1BC9FFE12C877850000370E9 /* ColorOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC9FFE02C877850000370E9 /* ColorOption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +47,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BC2BB272C877B62004F399E /* EventSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSymbols.swift; sourceTree = "<group>"; };
+		1BC2BB292C877C8D004F399E /* EventList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventList.swift; sourceTree = "<group>"; };
+		1BC2BB2C2C877CD5004F399E /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
+		1BC2BB2E2C877D08004F399E /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		1BC2BB302C877D56004F399E /* EventTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTask.swift; sourceTree = "<group>"; };
+		1BC2BB332C877F8D004F399E /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		1BC2BB352C877FE8004F399E /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		1BC2BB392C8786C3004F399E /* EventRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRow.swift; sourceTree = "<group>"; };
+		1BC2BB3B2C87871D004F399E /* CustomLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabelStyle.swift; sourceTree = "<group>"; };
+		1BC2BB3D2C878A86004F399E /* Period.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Period.swift; sourceTree = "<group>"; };
+		1BC2BB402C878B64004F399E /* SymbolPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolPicker.swift; sourceTree = "<group>"; };
+		1BC2BB422C878B8F004F399E /* EventEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditor.swift; sourceTree = "<group>"; };
+		1BC2BB442C878CB6004F399E /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
 		1BC9FFB22C8776CD000370E9 /* Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BC9FFB52C8776CD000370E9 /* PlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerApp.swift; sourceTree = "<group>"; };
-		1BC9FFB72C8776CD000370E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1BC9FFB92C8776CE000370E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BC9FFBC2C8776CE000370E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1BC9FFC22C8776CE000370E9 /* PlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +69,7 @@
 		1BC9FFCC2C8776CE000370E9 /* PlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BC9FFD02C8776CE000370E9 /* PlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerUITests.swift; sourceTree = "<group>"; };
 		1BC9FFD22C8776CE000370E9 /* PlannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1BC9FFE02C877850000370E9 /* ColorOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOption.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +97,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BC2BB2B2C877CA8004F399E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1BC2BB292C877C8D004F399E /* EventList.swift */,
+				1BC2BB422C878B8F004F399E /* EventEditor.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1BC2BB322C877F64004F399E /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				1BC2BB332C877F8D004F399E /* Colors.swift */,
+				1BC2BB352C877FE8004F399E /* Date.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		1BC2BB372C8782F5004F399E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1BC9FFE02C877850000370E9 /* ColorOption.swift */,
+				1BC2BB272C877B62004F399E /* EventSymbols.swift */,
+				1BC2BB3B2C87871D004F399E /* CustomLabelStyle.swift */,
+				1BC2BB3D2C878A86004F399E /* Period.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1BC2BB382C8786B5004F399E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1BC2BB392C8786C3004F399E /* EventRow.swift */,
+				1BC2BB402C878B64004F399E /* SymbolPicker.swift */,
+				1BC2BB442C878CB6004F399E /* TaskRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		1BC2BB3F2C878B17004F399E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1BC2BB2E2C877D08004F399E /* Event.swift */,
+				1BC2BB2C2C877CD5004F399E /* EventData.swift */,
+				1BC2BB302C877D56004F399E /* EventTask.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		1BC9FFA92C8776CD000370E9 = {
 			isa = PBXGroup;
 			children = (
@@ -94,9 +169,12 @@
 		1BC9FFB42C8776CD000370E9 /* Planner */ = {
 			isa = PBXGroup;
 			children = (
+				1BC2BB3F2C878B17004F399E /* Models */,
+				1BC2BB372C8782F5004F399E /* Helpers */,
+				1BC9FFDF2C87783F000370E9 /* Commons */,
+				1BC2BB2B2C877CA8004F399E /* Screens */,
+				1BC2BB382C8786B5004F399E /* Components */,
 				1BC9FFB52C8776CD000370E9 /* PlannerApp.swift */,
-				1BC9FFB72C8776CD000370E9 /* ContentView.swift */,
-				1BC9FFB92C8776CE000370E9 /* Assets.xcassets */,
 				1BC9FFBB2C8776CE000370E9 /* Preview Content */,
 			);
 			path = Planner;
@@ -125,6 +203,15 @@
 				1BC9FFD22C8776CE000370E9 /* PlannerUITestsLaunchTests.swift */,
 			);
 			path = PlannerUITests;
+			sourceTree = "<group>";
+		};
+		1BC9FFDF2C87783F000370E9 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				1BC9FFB92C8776CE000370E9 /* Assets.xcassets */,
+				1BC2BB322C877F64004F399E /* Extentions */,
+			);
+			path = Commons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +344,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BC9FFB82C8776CD000370E9 /* ContentView.swift in Sources */,
+				1BC2BB452C878CB6004F399E /* TaskRow.swift in Sources */,
+				1BC2BB282C877B62004F399E /* EventSymbols.swift in Sources */,
+				1BC2BB342C877F8D004F399E /* Colors.swift in Sources */,
+				1BC2BB312C877D56004F399E /* EventTask.swift in Sources */,
 				1BC9FFB62C8776CD000370E9 /* PlannerApp.swift in Sources */,
+				1BC2BB2D2C877CD5004F399E /* EventData.swift in Sources */,
+				1BC2BB2A2C877C8D004F399E /* EventList.swift in Sources */,
+				1BC2BB2F2C877D08004F399E /* Event.swift in Sources */,
+				1BC2BB3A2C8786C3004F399E /* EventRow.swift in Sources */,
+				1BC2BB362C877FE8004F399E /* Date.swift in Sources */,
+				1BC2BB432C878B8F004F399E /* EventEditor.swift in Sources */,
+				1BC9FFE12C877850000370E9 /* ColorOption.swift in Sources */,
+				1BC2BB3E2C878A86004F399E /* Period.swift in Sources */,
+				1BC2BB3C2C87871D004F399E /* CustomLabelStyle.swift in Sources */,
+				1BC2BB412C878B64004F399E /* SymbolPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
